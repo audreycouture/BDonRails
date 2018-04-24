@@ -35,7 +35,7 @@ Pour ce mardi 24 avril 2018 dans le cadre de la découverte des app Rails, nous 
 Faire un git clone dans vos dossiers utilisateurs.
 Via le terminal, une fois dans le dossier cloné ouvrir l'app concernée et faire un "bundle install"
 Puis pour lancer l'ajout de nouvelles données lancer la commande: 
-> rails db:seed <
+> rails db:seed 
 
 Pour voir la base données ouvrir le fichier sqlite dans le dossier db de l'app, soit avec dbBrowser soit avec SqliteStudio ou autre et visionner.
 

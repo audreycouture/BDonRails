@@ -1,5 +1,5 @@
 # BDonRails
-Créations d'app Rails et bases de données
+Créations d'app Rails et bases de données Active Records
 
 
 
@@ -10,7 +10,8 @@ Créations d'app Rails et bases de données
 # Introduction : Présentation de l'équipe
 
 ## ** WEST COAST MARSEILLE**
-##- Audrey (@audreycouture)
+##- Audrey (@audreycouture)  (=>Fait part)
+
 ##- Jerome (@Jerome)
 ##- Damien (@damien13005)
 ##- Maxime (@Maxime)
@@ -33,12 +34,15 @@ Pour ce mardi 24 avril 2018 dans le cadre de la découverte des app Rails, nous 
 # Consignes d'utilisation
 
 Faire un git clone dans vos dossiers utilisateurs.
-Via le terminal, une fois dans le dossier cloné ouvrir l'app concernée et faire un "bundle install"
-Puis pour lancer l'ajout de nouvelles données lancer la commande: 
+Via le terminal, une fois dans le dossier cloné ouvrir l'app concernée et faire un 
+> bundle install
+
+Puis pour lancer l'ajout de nouvelles données, lancer la commande: 
 > rails db:seed 
 
 Pour voir la base données ouvrir le fichier sqlite dans le dossier db de l'app, soit avec dbBrowser soit avec SqliteStudio ou autre et visionner.
 
+Pour chaque app, vous utiliserez les fichiers db/Development.sqlite3 ou db/seeds.rb ou db/Migrate/ ...rb mais aussi app/models/"classes".rb
 
 
 
